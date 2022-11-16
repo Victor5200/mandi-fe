@@ -9,8 +9,12 @@ import {SentimentoComponent} from "./sentimento/sentimento.component";
 import {ProatividadeComponent} from "./proatividade/proatividade.component";
 import {ExposicaoComponent} from "./exposicao/exposicao.component";
 import {ClienteComponent} from "./cliente/cliente.component";
+<<<<<<< Updated upstream
 import {ProjetosComponent} from "./projetos/projetos.component";
 import {PautaComponent} from "./pauta/pauta.component";
+=======
+import {PilarComponent} from "./pilar/pilar.component";
+>>>>>>> Stashed changes
 
 const routes: Routes = [
   { path: 'usuario', component: UsuarioComponent},
@@ -22,8 +26,12 @@ const routes: Routes = [
   { path: 'midia', component: MidiaComponent},
   { path: 'tier', component: TierComponent},
   { path: 'fda', component: FatorAlcanceComponent},
+<<<<<<< Updated upstream
   { path: 'projetos', component: ProjetosComponent},
   { path: 'pauta', component: PautaComponent}
+=======
+  { path: 'pilar', component: PilarComponent}
+>>>>>>> Stashed changes
 ]
 
 @NgModule({
