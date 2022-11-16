@@ -3,11 +3,13 @@ import { CommonModule } from '@angular/common';
 
 import { CadastroRoutingModule } from './cadastro-routing.module';
 import { UsuarioComponent } from './usuario/usuario.component';
+import { VeiculoComponent } from './veiculo/veiculo.component';
 
 
 @NgModule({
   declarations: [
-    UsuarioComponent
+    UsuarioComponent,
+    VeiculoComponent
   ],
   imports: [
     CommonModule,
