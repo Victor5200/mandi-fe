@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+
+.form-control {
+  background-color: #ffde59 !important;
+}
+
+.bg-maindi {
+  background-color: rgba(76, 163, 156, 0.1);
+}
+
+.nav-link {
+  color: #4ca39c !important;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  background-color: #ffde59 !important;
+}
+
+.menu-color {
+  color: #4ca39c !important;
+}
+
+.btn-maindi {
+  background-color: #4ca39c !important;
+  color: #292929 !important;
+  font-weight: bold !important;
+}
