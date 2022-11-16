@@ -11,12 +11,13 @@ import { VeiculoComponent } from './veiculo/veiculo.component';
 import { MidiaComponent } from './midia/midia.component';
 import { TierComponent } from './tier/tier.component';
 import { FatorAlcanceComponent } from './fator-alcance/fator-alcance.component';
-<<<<<<< Updated upstream
+
 import { ProjetosComponent } from './projetos/projetos.component';
 import { PautaComponent } from './pauta/pauta.component';
-=======
 import { PilarComponent } from './pilar/pilar.component';
->>>>>>> Stashed changes
+
+
+
 
 
 @NgModule({
@@ -30,12 +31,9 @@ import { PilarComponent } from './pilar/pilar.component';
     MidiaComponent,
     TierComponent,
     FatorAlcanceComponent,
-<<<<<<< Updated upstream
     ProjetosComponent,
-    PautaComponent
-=======
-    PilarComponent
->>>>>>> Stashed changes
+    PautaComponent,
+    PilarComponent,
   ],
   imports: [
     CommonModule,
