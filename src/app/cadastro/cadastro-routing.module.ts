@@ -9,6 +9,8 @@ import {SentimentoComponent} from "./sentimento/sentimento.component";
 import {ProatividadeComponent} from "./proatividade/proatividade.component";
 import {ExposicaoComponent} from "./exposicao/exposicao.component";
 import {ClienteComponent} from "./cliente/cliente.component";
+import {ProjetosComponent} from "./projetos/projetos.component";
+import {PautaComponent} from "./pauta/pauta.component";
 
 const routes: Routes = [
   { path: 'usuario', component: UsuarioComponent},
@@ -20,6 +22,8 @@ const routes: Routes = [
   { path: 'midia', component: MidiaComponent},
   { path: 'tier', component: TierComponent},
   { path: 'fda', component: FatorAlcanceComponent},
+  { path: 'projetos', component: ProjetosComponent},
+  { path: 'pauta', component: PautaComponent}
 ]
 
 @NgModule({

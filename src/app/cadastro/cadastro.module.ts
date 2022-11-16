@@ -11,6 +11,8 @@ import { VeiculoComponent } from './veiculo/veiculo.component';
 import { MidiaComponent } from './midia/midia.component';
 import { TierComponent } from './tier/tier.component';
 import { FatorAlcanceComponent } from './fator-alcance/fator-alcance.component';
+import { ProjetosComponent } from './projetos/projetos.component';
+import { PautaComponent } from './pauta/pauta.component';
 
 
 @NgModule({
@@ -23,7 +25,9 @@ import { FatorAlcanceComponent } from './fator-alcance/fator-alcance.component';
     VeiculoComponent,
     MidiaComponent,
     TierComponent,
-    FatorAlcanceComponent
+    FatorAlcanceComponent,
+    ProjetosComponent,
+    PautaComponent
   ],
   imports: [
     CommonModule,
